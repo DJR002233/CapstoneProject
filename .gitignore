@@ -1,0 +1,57 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/lis-frontend/node_modules
+/lis-frontend/.pnp
+/lis-frontend/.pnp.js
+/lis-frontend.yarn/install-state.gz
+
+# testing
+/lis-frontend/coverage
+
+# next.js
+/lis-frontend/.next/
+/lis-frontend/out/
+
+# production
+/lis-frontend/build
+
+# misc
+/lis-frontend/.DS_Store
+/lis-frontend/*.pem
+
+# debug
+/lis-frontend/npm-debug.log*
+/lis-frontend/yarn-debug.log*
+/lis-frontend/yarn-error.log*
+
+# local env files
+/lis-frontend/.env*.local
+
+# vercel
+/lis-frontend/.vercel
+
+# typescript
+/lis-frontend/*.tsbuildinfo
+/lis-frontend/next-env.d.ts
+
+/lis-backend/.phpunit.cache
+/lis-backend/node_modules
+/lis-backend/public/build
+/lis-backend/public/hot
+/lis-backend/public/storage
+/lis-backend/storage/*.key
+/lis-backend/vendor
+/lis-backend/.env
+/lis-backend/.env.backup
+/lis-backend/.env.production
+/lis-backend/.phpactor.json
+/lis-backend/.phpunit.result.cache
+/lis-backend/Homestead.json
+/lis-backend/Homestead.yaml
+/lis-backend/auth.json
+/lis-backend/npm-debug.log
+/lis-backend/yarn-error.log
+/lis-backend/.fleet
+/lis-backend/.idea
+/lis-backend/.vscode

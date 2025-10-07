@@ -1,0 +1,27 @@
+.text-orientation-mixed {
+    text-orientation: mixed;
+}
+
+.text-orientation-upright {
+    text-orientation: upright;
+}
+
+.text-orientation-sideways {
+    text-orientation: sideways;
+}
+
+.text-orientation-sideways-right {
+    text-orientation: sideways-right;
+}
+
+.text-orientation-glyph {
+    text-orientation: use-glyph-orientation;
+}
+
+.text-orientation-initial {
+    text-orientation: initial;
+}
+
+.text-orientation-inherit {
+    text-orientation: inherit;
+}

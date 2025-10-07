@@ -1,0 +1,179 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --shadow-color: #000000;
+}
+
+@media only screen and (max-width: 47.9em) {
+    .faculty-menu {
+        /* display: block; */
+        clear: both;
+        max-height: 0px;
+        transition: max-height 0.2s ease-out;
+    }
+    .faculty-menu-btn:checked ~ .faculty-menu {
+        max-height: 400px;
+    }
+    .faculty-overflow-y-hidden {
+        overflow-y: hidden;
+    }
+    .faculty-rounded-br-lg {
+        border-start-end-radius: 0rem;
+        border-bottom-right-radius: 0.5rem;
+    }
+    /* .faculty-ps-10 {
+        padding-inline-start: 2.5rem;
+    } */
+}
+@media only screen and (min-width: 47.9em) {
+    .faculty-absolute {
+        position: absolute;
+    }
+}
+@media only screen and (max-width: 55.2em) {
+    .admin-menu {
+        /* display: block; */
+        clear: both;
+        max-height: 0px;
+        transition: max-height 0.2s ease-out;
+    }
+
+    .admin-menu-btn:checked ~ .admin-menu {
+        max-height: 500px;
+    }
+
+    .admin-show {
+        display: flex;
+    }
+    .admin-overflow-hidden {
+        overflow: hidden;
+    }
+    .admin-ps-14 {
+        padding-inline-start: 3.5rem;
+    }
+}
+@media only screen and (min-width: 55.3em) {
+    .admin-flex {
+        display: flex;
+    }
+    .admin-justify-center {
+        justify-content: center;
+    }
+    .admin-absolute {
+        position: absolute;
+    }
+    .admin-relative {
+        position: relative;
+    }
+    .admin-w-56 {
+        width: 14rem;
+    }
+}
+
+.shadow-border-color-grey {
+    --shadow-color: #cdcdcd;
+}
+
+.shadow-border-2 {
+    box-shadow:
+        inset 2px 2px 0px 0px var(--shadow-color),
+        inset -2px -2px 0px 0px var(--shadow-color);
+}
+
+.shadow-border-s-2 {
+    box-shadow: inset 2px 0px 0px 0px var(--shadow-color);
+}
+
+.shadow-border-e-2 {
+    box-shadow: inset -2px 0px 0px 0px var(--shadow-color);
+}
+
+.shadow-border-x-2 {
+    box-shadow:
+        inset 2px 0px 0px 0px #000000,
+        inset -2px 0px 0px 0px var(--shadow-color);
+}
+
+.shadow-border-t-2 {
+    box-shadow: inset 0px 2px 0px 0px var(--shadow-color);
+}
+
+.shadow-border-b-2 {
+    box-shadow: inset 0px -2px 0px 0px var(--shadow-color);
+}
+
+.shadow-border-y-2 {
+    box-shadow:
+        inset 0px 2px 0px 0px var(--shadow-color),
+        inset 0px -2px 0px 0px var(--shadow-color);
+}
+
+.w-fixed-72 {
+    width: 72rem;
+}
+
+.w-screen-75 {
+    width: 75vw;
+}
+
+.h-screen-60 {
+    height: 60vh;
+}
+
+.max-h-screen-60 {
+    max-height: 60vh;
+}
+
+.h-screen-75 {
+    height: 75vh;
+}
+
+.max-h-screen-70 {
+    max-height: 70vh;
+}
+
+.max-h-screen-75 {
+    max-height: 75vh;
+}
+
+/* @media only screen and (min-width: 768px) { */
+.max-h-screen-95 {
+    max-height: 95vh;
+}
+/* } */
+
+.bg-color-yellow {
+    background-color: rgb(255, 252, 4);
+}
+
+:root {
+    --foreground-rgb: 0, 0, 0;
+    --background-start-rgb: 214, 219, 220;
+    --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --foreground-rgb: 255, 255, 255;
+        --background-start-rgb: 0, 0, 0;
+        --background-end-rgb: 0, 0, 0;
+    }
+}
+
+body {
+    color: rgb(var(--foreground-rgb));
+    /*background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));*/
+}
+
+@layer utilities {
+    .text-balance {
+        text-wrap: balance;
+    }
+}

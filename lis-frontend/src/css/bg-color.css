@@ -1,0 +1,23 @@
+.bg-color-high-yellow {
+    background-color: rgb(252, 252, 100);
+}
+
+.bg-color-average-yellow {
+    background-color: rgb(252, 252, 154);
+}
+
+.bg-color-low-yellow {
+    background-color: rgb(252, 252, 208);
+}
+
+.bg-color-purpleishblue {
+    background-color: rgb(8, 28, 108);
+}
+
+.bg-color-purpleishblue-dark {
+    background-color: rgb(0, 9, 88);
+}
+
+.bg-color-purpleishblue-light {
+    background-color: rgb(44, 56, 115);
+}

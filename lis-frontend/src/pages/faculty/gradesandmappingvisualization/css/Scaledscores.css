@@ -1,0 +1,17 @@
+.low {
+    content: '';
+    position: absolute;
+    bottom: 10px;
+}
+
+.average {
+    content: '';
+    position: absolute;
+    bottom: 27%;
+}
+
+.high {
+    content: '';
+    position: absolute;
+    top: 31%;
+}
